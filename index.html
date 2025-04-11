@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perhitungan Diskon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Perhitungan Diskon</h1>
+        <div class="input-group">
+            <label for="harga">Harga Awal:</label>
+            <div class="input-row">
+                <input type="text" id="harga" placeholder="Masukkan harga" oninput="formatRupiah(this)">
+            </div>
+        </div>
+        <div class="input-group">
+            <label for="diskon">Diskon (%):</label>
+            <div class="input-row">
+                <input type="number" id="diskon" min="0" max="100" placeholder="Masukkan diskon">
+            </div>
+        </div>
+        <button onclick="hitungDiskon()">Hitung</button>
+        <div id="hasil" class="hasil"></div>
+        <div id="warning" class="warning"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
