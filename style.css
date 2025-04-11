@@ -43,8 +43,8 @@ input, button {
 }
 
 input {
-  background: #2c2c2c;
-  color: #fff;
+  background: #ffffff;
+  color: #00000fff;
 }
 
 input:focus {
@@ -61,6 +61,12 @@ button {
 
 button:hover {
   background: #00cccc;
+}
+
+.hasil {
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 h2 {
